@@ -1,0 +1,88 @@
+.App {
+  text-align: center;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 5px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.container_contact {
+  margin: 30px 0px 30px 0px;
+}
+.contact_search input {
+  border: none;
+  width: 100%;
+  padding: 10px;
+}
+.contact_search input:focus {
+    outline: none;
+}
+.contact_search {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #ccc;
+  align-items: center;
+  border-radius: 5px;
+  padding: 0px 10px 0px 10px;
+  margin-bottom: 10px;
+}
+.button_edit {
+  text-align: center;
+}
+.list_contact {
+  margin: 20px 0px 20px 00px;
+}
+.detail_edit {
+  text-align: left;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.detail_edit h6 {
+  margin: 0px;
+}
+.detail_img {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 50px;
+  overflow: hidden;
+}
+.detail_preview {
+  padding: 50px;
+  overflow: hidden;
+  display: inline-block;
+  position: relative;
+}
+.img_thumbnail {
+  width: 50px;
+}
+.search_icon {
+  width: 20px;
+}
+.choose_input {
+  display: none;
+}
+.img_preview {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
